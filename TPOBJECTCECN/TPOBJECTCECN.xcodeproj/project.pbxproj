@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2365072E163AB66D001578AD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2365072D163AB66D001578AD /* main.cpp */; };
 		23650730163AB66D001578AD /* TPOBJECTCECN.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2365072F163AB66D001578AD /* TPOBJECTCECN.1 */; };
+		23650738163AB828001578AD /* Coup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23650736163AB828001578AD /* Coup.cpp */; };
+		2365073B163AB995001578AD /* Ciseaux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23650739163AB995001578AD /* Ciseaux.cpp */; };
+		2365073E163ABB39001578AD /* Pierre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2365073C163ABB39001578AD /* Pierre.cpp */; };
+		23650741163ABB5C001578AD /* Feuille.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2365073F163ABB5C001578AD /* Feuille.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,14 @@
 		23650729163AB66D001578AD /* TPOBJECTCECN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TPOBJECTCECN; sourceTree = BUILT_PRODUCTS_DIR; };
 		2365072D163AB66D001578AD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2365072F163AB66D001578AD /* TPOBJECTCECN.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TPOBJECTCECN.1; sourceTree = "<group>"; };
+		23650736163AB828001578AD /* Coup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coup.cpp; sourceTree = "<group>"; };
+		23650737163AB828001578AD /* Coup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coup.h; sourceTree = "<group>"; };
+		23650739163AB995001578AD /* Ciseaux.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ciseaux.cpp; sourceTree = "<group>"; };
+		2365073A163AB995001578AD /* Ciseaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ciseaux.h; sourceTree = "<group>"; };
+		2365073C163ABB39001578AD /* Pierre.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pierre.cpp; sourceTree = "<group>"; };
+		2365073D163ABB39001578AD /* Pierre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pierre.h; sourceTree = "<group>"; };
+		2365073F163ABB5C001578AD /* Feuille.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Feuille.cpp; sourceTree = "<group>"; };
+		23650740163ABB5C001578AD /* Feuille.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feuille.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,14 @@
 			isa = PBXGroup;
 			children = (
 				2365072D163AB66D001578AD /* main.cpp */,
+				23650736163AB828001578AD /* Coup.cpp */,
+				23650739163AB995001578AD /* Ciseaux.cpp */,
+				2365073C163ABB39001578AD /* Pierre.cpp */,
+				2365073D163ABB39001578AD /* Pierre.h */,
+				2365073F163ABB5C001578AD /* Feuille.cpp */,
+				23650740163ABB5C001578AD /* Feuille.h */,
+				2365073A163AB995001578AD /* Ciseaux.h */,
+				23650737163AB828001578AD /* Coup.h */,
 				2365072F163AB66D001578AD /* TPOBJECTCECN.1 */,
 			);
 			path = TPOBJECTCECN;
@@ -118,6 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2365072E163AB66D001578AD /* main.cpp in Sources */,
+				23650738163AB828001578AD /* Coup.cpp in Sources */,
+				2365073B163AB995001578AD /* Ciseaux.cpp in Sources */,
+				2365073E163ABB39001578AD /* Pierre.cpp in Sources */,
+				23650741163ABB5C001578AD /* Feuille.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
